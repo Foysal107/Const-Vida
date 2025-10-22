@@ -17,7 +17,7 @@ const Rewards = () => {
              
             
            
-            <div className="grid grid-cols-3 container mx-auto pt-50 justify-center   gap-10">
+            <div className="grid md:grid-cols-1 lg:grid-cols-3 container mx-auto pt-50 justify-center   gap-10">
                 {categories.map((cat) => (
                     <div key={cat.idCategory} className=" w-100">
                         <img
